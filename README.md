@@ -36,7 +36,7 @@ apt install siege
 
 5.2 - Uso: via terminal, executar o Siege (ferramenta que simula cliente)
 
-- sudo siege -t30m -c250 -d3s 192.168.100.6:8083
+- sudo siege -t30m -c250 -d3s 127.0.0.1:8083
 
 OBS1: "-c250" significa 250 clientes
 
@@ -48,7 +48,7 @@ OBS2: "-d3s" significa que será criada requisição num intervalor aleatório d
 - apt install hping3
 
 6.2 - Uso: via terminal, executar o Hping3 (ferramenta que simula ataque)
-- sudo hping3 -S --flood 192.168.100.6 -p 8083
+- sudo hping3 -S --flood 127.0.0.1 -p 8083
 - sudo hping3 -S -i u300 127.0.0.1 -p 8083
 - sudo hping3 -S -i u250 127.0.0.1 -p 8083
 
