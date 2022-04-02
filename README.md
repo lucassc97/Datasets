@@ -23,8 +23,8 @@ Conjuntos de dados disponíveis:
 2 - Nas configurações do Docker habilitar a integração com Kubernetes
 
 3 - via terminal, instanciar o kubernetes (onde o apache ficará disponível na porta 8083)
-kubectl apply -f apache_kube/deployment.yaml
-kubectl apply -f apache_kube/service.yaml
+- kubectl apply -f apache_kube/deployment.yaml
+- kubectl apply -f apache_kube/service.yaml
 
 4 - via terminal, instanciar o Netdata
 docker-compose up -d
